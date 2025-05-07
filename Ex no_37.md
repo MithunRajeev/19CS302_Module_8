@@ -8,32 +8,33 @@ Print the sum and difference of two int variable on a new line.
 Print the sum and difference of two float variable rounded to one decimal place on a new line.
 
 ## AIM:
-To write a program to print the sum of the integers in the array.
+To write a C program to find the sum and difference of two integers and two float numbers entered by the user.
 ## ALGORITHM:
-1. Start.
-2. Define a variables.
-3. Write a program to print the sum of the integers in the array.
-4. Read the value using scanf.
-5. Ask the user to make an input.
-6. Print out the answer.
-7. End.
+1.Start
+2.Declare two int and two float variables
+3.Read two integers from the user
+4.Read two float numbers from the user
+5.Calculate and print the sum and difference of the integers
+6.Calculate and print the sum and difference of the floats (rounded to 1 decimal)
+7.End
 ## PROGRAM:
 ```
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-int i,n,sum=0,arr[100];
-scanf("%d",&n);
-{
-for(i=0;i<n;i++)
-scanf("%d",&arr[i]);
-for(i=0;i<n;i++)
-sum=sum+arr[i];
-i++;
-}printf("%d",sum);
+    int a, b;
+    float x, y;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    printf("Enter two floats: ");
+    scanf("%f %f", &x, &y);
+    printf("%d %d\n", a + b, a - b);
+    printf("%.1f %.1f\n", x + y, x - y);
+    return 0;
 }
 ```
-## output:
-![image](https://github.com/user-attachments/assets/989a2c54-3a95-4d6a-a16e-370ce01b4ff8)
+## OUTPUT:
+![Screenshot 2025-05-07 164549](https://github.com/user-attachments/assets/2e2af757-bc2a-4f45-a06b-c3def8a4236d)
+
 ## RESULT:
 Thus, the program is executed and verified successfully.
