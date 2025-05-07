@@ -10,13 +10,13 @@ Print the sum and difference of two float variable rounded to one decimal place 
 ## AIM:
 To write a C program to find the sum and difference of two integers and two float numbers entered by the user.
 ## ALGORITHM:
-1.Start.
-2.Declare two int and two float variables.
-3.Read two integers from the user.
-4.Read two float numbers from the user.
-5.Calculate and print the sum and difference of the integers.
-6.Calculate and print the sum and difference of the floats.
-7.End.
+1. Start.
+2. Define a variables.
+3. Write a program to print the given string.
+4. Read the value using scanf.
+5. Ask the user to make an input.
+6. Print out the answer.
+7. End.
 ## PROGRAM:
 ```
 #include <stdio.h>
